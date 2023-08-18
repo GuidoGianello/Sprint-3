@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="nav1">
+        <div class="ancore">
+            <div class="menu-navegacion">
+            <a href="../../index.html">Home</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./moreinformation.html">More Information</a>
+            <a href="./benefits.html">Benefits and Tips</a>
+            <a href="#">Raffle</a>
+            </div>
+            <img src="../images/logo.png" alt="logo" id="logo">
+        </div>
+    </nav>
+    <header>
+        <h1>Raffle</h1>
+        <p>You can collaborate to hold an exhibition event and participate in a raffle to win an easel
+        </p>
+    </header>
+    <main class="main-raffle">
+        <div class="div-map">
+            <h3>Our location is located at:</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.04417343996!2d-118.74138884416782!3d34.02060845446305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1692228816366!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="div-formulario">
+            <form action="./show_data.html" method="get">
+                <label for="first-name">First Name</label>
+                <input type="text" name="nombre" id="first-name">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name">
+
+                <label for="choose-theme-art">Choose Theme Art</label>
+                <select name="choose-theme-art" id="choose-theme-art">
+                    <option value="surr">Surreal art</option>
+                    <option value="abst">Abstract art</option>
+                    <option value="expr">Expressionism</option>
+                </select>
+                <label for="choose-date">Choose Date</label>
+                <select name="choose-date" id="choose-date">
+                    <option value="date20">20/08</option>
+                    <option value="date21">21/08</option>
+                    <option value="date22">22/08</option>
+                </select>
+
+                <legend>Payment Option</legend>
+                <fieldset>
+                    <input type="radio" name="payment" id="cash" value="cash">
+                    <label for="cash">Cash</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="payment" id="credit" value="credit">
+                    <label for="credit">Credit Card</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="payment" id="debit" value="debit">
+                    <label for="debit">Debit Card</label>
+                </fieldset>
+                <legend>Message (Optional)</legend>
+                <label for="opt-msg"></label>
+                <textarea name="opt-msg" id="opt-msg" cols="40" rows="13"></textarea>
+                <fieldset>
+                    <input type="checkbox" name="" id="confirmation">
+                    <label for="confirmation">I accept terms and conditions...</label>
+                    <input class="input-send" type="submit" value="Send">
+                </fieldset>
+
+
+            </form>
+        </div>
+    </main>
+    <footer>Created By: Guido Gianello
+
+    </footer>
+
+</body>
+
+</html>
